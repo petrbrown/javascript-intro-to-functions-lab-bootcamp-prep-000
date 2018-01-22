@@ -22,5 +22,5 @@ function sayHitoGrandma(string)
     return ("I can\'t hear you")
   } else if (string === ${uppercase}) {
     return ("YES INDEED!")
-  } else return ((string)'\, '
+  } else return ('I love you, too'
 }
