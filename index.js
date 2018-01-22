@@ -18,9 +18,9 @@ function compare(string)
 {
   var uppercase = (`string.shout()`)
   var lowercase = (`string.whisper()`)
-  if ("string" === $`{lowercase}`) {
+  if (`string` === $`{lowercase}`) {
     return("I can\'t hear you")
-  } else if (string === $`{uppercase}`) {
+  } else if (`string` === $`{uppercase}`) {
     return("YES INDEED!")
   } else return('I love you, too.')
 }
