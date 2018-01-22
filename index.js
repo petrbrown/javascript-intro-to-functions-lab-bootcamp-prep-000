@@ -14,8 +14,8 @@ function logShout(string)
 {
   console.log(string.toUpperCase())
 }
-function sayHitoGrandma(string)
-{
+toGrandma(string)
+{function sayHi
   var uppercase = (string.logShout())
   var lowercase = (string.logWhisper())
   if (string === $`{lowercase}`) {
