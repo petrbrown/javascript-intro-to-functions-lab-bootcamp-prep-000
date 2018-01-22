@@ -16,8 +16,8 @@ function logShout(string)
 }
 function compare(string)
 {
-  var uppercase = (string.logShout())
-  var lowercase = (string.logWhisper())
+  var uppercase = (`string`.logShout())
+  var lowercase = (`string`.logWhisper())
   if (`string` === $`{lowercase}`) {
     return("I can\'t hear you")
   } else if (`string` === $`{uppercase}`) {
