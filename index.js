@@ -14,8 +14,9 @@ function logShout(string)
 {
   console.log(string.toUpperCase())
 }
-
-function sayHitoGrandma(string, function())
+function sayHitoGrandma(string)
 {
+  var 
+  if (sayHitoGrandma(string.toUpperCase()===)
   return sayHitoGrandma(string)
 }
