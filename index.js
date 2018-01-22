@@ -14,17 +14,11 @@ function logShout(string)
 {
   console.log(string.toUpperCase())
 }
-function compare(string)
+function sayHiToGrandma(string)
 {
-  var uppercase = (`string.shout()`)
-  var lowercase = (`string.whisper()`)
-  if (`string` === $`{lowercase}`) {
-    return("I can\'t hear you")
-  } else if (`string` === $`{uppercase}`) {
-    return("YES INDEED!")
-  } else return('I love you, too.')
-}
-function sayHitoGrandma(string)
-{
-  compare(string)
+  if (string === string.toLowerCase()) {
+    return "I can't hear you."
+  } else if (string === string.toLowerCase()) {
+    return "YES INDEED!"
+  } else return 'I love you, too.'
 }
